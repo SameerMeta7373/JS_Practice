@@ -1,0 +1,126 @@
+EP1
+
+Everything happens in execution context 
+variable envionment = memory 
+code  = thread of execution 
+
+javascript is a synchronous single-threaded languagge 
+
+
+
+EP 2
+
+In the initial a variable will always have an undefined value stored in memory  
+Every execution is stored in stack and then puch and pop according to the context known as call stack 
+
+
+
+EP 3
+
+When a new variable is stored it will be undefined till it has null value 
+
+If we call an arrow function it will 
+
+
+EP 4
+
+After any function is executed the whole execution context will bw deleted from the global context execution 
+and also deleted from call stack 
+
+
+
+
+EP 5
+
+
+
+EP 6
+
+The main difference between "undefined" and "not defined" is that
+undefined is a value that can be assigned to a variable, 
+while not defined indicates that a variable does not exist.
+
+
+EP 7
+
+Lexical environment can be said as inheritance between function and variable 
+
+
+EP 8
+
+Tamporal deadzone when the variable is refrenced even before it is inialized 
+
+In var the variable is inialized but it is not defined which means the memory is assigned but it is not defined
+
+In const value of variable should be declared with the initialization 
+
+In let the variable is not initialzed and if want to access in the code before the initializaiton
+it will throw refrenced error 
+
+In let the variable can be declared later in the code 
+
+
+EP 9
+
+Block can be defined by the curly brackets in which there are lines of codes
+differet code statements can be gathered in single block so that it can be use in js where a single line of code
+is expected 
+
+All the variable and functions accessed in a block are the block scope   
+
+When a variable is declared in a certain scope and also same name variable is declared in an outside scope the
+inner variable shadowed the outer variable with in its scope  
+
+Illegal shadowing is something if we try to shadow let variable by var variable  
+
+
+
+EP 10
+Closures 
+
+we can return a whole function in a variable  
+
+a function along with its lexical scope bundle forme as Closures 
+
+
+EP 15
+
+All the working on the browser is done by using Web Apis
+
+for Example 
+SetTimeout()
+DOM Api ()
+fetc
+
+setTimeout
+
+console.log uses the console web Api to run on the browser  
+setTime out uses the setTimeout() Api from web api to run   
+
+promises 
+mutation observer 
+these goes inside the microtask Queue 
+
+other callbacks goes inside 
+callback queue 
+
+microtask have higher priority than callback queue thats why callback functions in microtask queue goes first in call stack   
+
+
+
+EP 17
+
+every browser has js runtime environment that is why all the js code is run on the browser 
+JIT compilation --> js engine uses an interpreter as well as compiler which makes it as a JIT (just in time compilation)
+
+
+
+EP_18
+
+In JavaScript, a higher-order function is a function that can accept other functions as arguments, return functions, or do both. 
+
+the function which is passed in the HOF is known as Call back function 
+ 
+
+
+
